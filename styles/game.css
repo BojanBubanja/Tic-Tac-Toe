@@ -33,27 +33,27 @@
   display: grid;
   grid-template-columns: repeat(3, 6rem); /*same as *6rem 6rem 6rem*/
   grid-template-rows: repeat(3, 6rem); /*same as *6rem 6rem 6rem*/
-  justify-content:center;
+  justify-content: center;
   gap: 0.5rem;
 }
 
 #game-board li {
-background-color: rgb(215, 187, 247);
-border-radius: 2px;
-cursor: pointer;
-display: flex;
-justify-content: center;
-align-items: center;
-font-size: 2.5rem;
-font-weight: bold;
+  background-color: rgb(215, 187, 247);
+  border-radius: 2px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  font-weight: bold;
 }
 
 #game-board li:hover {
-background-color: rgb(112, 13, 204);
+  background-color: rgb(112, 13, 204);
 }
 
 #game-board li.disabled {
-    background-color: rgb(112, 13, 204) ;
-    color: white;
-    cursor: default;
+  background-color: rgb(112, 13, 204);
+  color: white;
+  cursor: default;
 }
